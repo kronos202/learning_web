@@ -22,6 +22,30 @@ Dự án learning là một ứng dụng web được phát triển nhằm mục
 - **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens)
 
+## Tính năng
+
+### Tính năng cơ bản
+
+- **Đăng ký/Đăng nhập**
+- **Quản lý từ vựng:** Node.js với Express
+- **Bài học:** MongoDB
+- **Bài kiểm tra:** JWT (JSON Web Tokens)
+- **Theo dõi tiến độ:** JWT (JSON Web Tokens)
+- **Nhắc nhở học tập:** JWT (JSON Web Tokens)
+
+### Tính năng nâng cao
+
+- **Giao diện đa ngôn ngữ** JWT (JSON Web Tokens)
+- **Flashcards:** JWT (JSON Web Tokens)
+- **Âm thanh và hình ảnh** JWT (JSON Web Tokens)
+
+## TechStack
+
+- **Backend** Nestjs or Express
+- **Frontend** Nextjs or Reactjs
+- **Database** MongoDB or Postgresql
+- **Deployment:** ?
+
 ## Cài Đặt
 
 ### Yêu Cầu Hệ Thống
