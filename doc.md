@@ -6,10 +6,17 @@ Dự án learning là một ứng dụng web được phát triển nhằm mục
 
 ## Mục Tiêu
 
+- **Tập trung vào từ vựng và đọc:** Tập trung vào khả năng tăng vốn từ vựng và đọc thành thạo không bị khựng hay khó chịu với từ mới.
 - **Tăng hiệu quả khi học ngôn ngữ:** Giúp người dùng dễ dàng theo dõi tiến độ học tập.
 - **Tối ưu hóa thời gian học:** Hỗ trợ học tập hiệu quả đối với người bận rộn.
 - **Cung cấp báo cáo chi tiết:** Tạo báo cáo về tiến độ và hiệu quả học tập.
-- **Ít tập trung vào ngữ ngáp:** Giúp người học không tập trung quá nhiều vào ngữ pháp
+- **Ít tập trung vào ngữ ngáp:** Giúp người học không tập trung quá nhiều vào ngữ pháp mà vẫn hiểu 1 cách dễ dàng
+
+## Đối tượng tập trung
+
+- **Beginer:** Giúp người học không tập
+- **Medium:** Giúp người học không tập
+- **Expert:** Giúp người học không tập
 
 ## Kiến Trúc
 
@@ -26,17 +33,44 @@ Dự án learning là một ứng dụng web được phát triển nhằm mục
 
 ### Tính năng cơ bản
 
-- **Đăng ký/Đăng nhập**
+#### Auth
+
+- **Đăng ký/Đăng nhập**: email hay google/facebook
+
+#### Dashboard User
+
+- **Profile:** Người dùng có thể cập nhật thông tin cá nhân, hình đại diện, và cài đặt bảo mật
+- **Tiến trình học tập:** Hiển thị tiến độ học tập của người dùng, bài học đã hoàn thành, điểm số, và các thành tích đạt được
 - **Quản lý từ vựng:** Node.js với Express
+
+#### Khóa học và bài học
+
 - **Bài học:** MongoDB
-- **Bài kiểm tra:** JWT (JSON Web Tokens)
-- **Theo dõi tiến độ:** JWT (JSON Web Tokens)
-- **Nhắc nhở học tập:** JWT (JSON Web Tokens)
+- **Danh mục khóa học:** Các bài học có thể bao gồm video, audio, văn bản, hình ảnh, và bài tập.
+- **Bài tập và kiểm tra:** Các bài tập tương tác, câu đố, bài kiểm tra để người dùng kiểm tra kiến thức của mình.
+
+#### Tính năng học từ vựng
+
+- **Luyện tập từ vựng:** JWT (JSON Web Tokens)
+- **Flashcards:** JWT (JSON Web Tokens)
+
+#### Tính năng theo dõi và đánh giá
+
+- **Báo cáo tiến độ:** Báo cáo chi tiết về tiến độ học tập, thời gian học, và kết quả kiểm tra.
+- **Đánh giá khóa học:** Người dùng có thể đánh giá và để lại nhận xét về các khóa học.
+
+#### Tùy chỉnh giao diện người dùng
+
+- **Dark/Light Mode:** Người dùng có thể đánh giá và để lại nhận xét về các khóa học.
+
+#### Tùy chỉnh giao diện người dùng
+
+- **Dark/Light Mode:** Người dùng có thể đánh giá và để lại nhận xét về các khóa học.
 
 ### Tính năng nâng cao
 
 - **Giao diện đa ngôn ngữ** JWT (JSON Web Tokens)
-- **Flashcards:** JWT (JSON Web Tokens)
+- **Phân tích ngữ pháp trong bài học đó** JWT (JSON Web Tokens)
 - **Âm thanh và hình ảnh** JWT (JSON Web Tokens)
 
 ## TechStack
